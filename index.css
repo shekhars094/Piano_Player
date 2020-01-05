@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(46, 116, 138);
+}
+
+header {
+  background: url("https://images.pexels.com/photos/87503/pexels-photo-87503.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center center fixed;
+  background-size: cover;
+  background-color: #cccccc;
+  overflow: auto;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Ma Shan Zheng", cursive;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem;
+  color: bisque;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(14, 43, 43);
+  background-color: #e7e2e2;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: bisque;
+  width: 4.4%;
+  height: 120px;
+  margin: 0.2px;
+  text-align: center;
+  border-radius: 9px;
+}
+
+ul {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  background-color: beige;
+}
+
+span {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
